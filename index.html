@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> web dev challenge </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div id="content">
+
+    <!---------- Navigation Start --------------->
+
+    <div class="navbar" id="myTopnav">
+
+      <a href="#" class="home">HOME</a>
+      <a href="#">DASHBOARD</a>
+      <a href="#">ABOUT</a>
+      <a href="#">CAMPAIGNS/BRANDS</a>
+      <a href="#">FILES</a>
+      <a href="#">DEPARTMENTS</a>
+      <a href="#">PEOPLE</a>
+
+      <input type="text" name="search" class="search" placeholder="Search everywhere" />
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+    </div>
+
+    <!----------- Navigation End ---------------->
+
+    <!----------- Corousel slider --------------->
+
+    <div class="corousel slider">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="slider-text">
+            <h1>Welcome to the Community</h1>
+            <span>Share, connect and collaborate.</span>
+          </div>
+          <img src="assets/images/slider-1.png">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="slider-text">
+            <h1>Digital Workspace</h1>
+            <span>Share your thoughts</span>
+          </div>
+          <img src="assets/images/slider-2.png">
+        </div>
+
+        <div class="mySlides fade">
+          <div class="slider-text">
+            <h1>Thrive for Excellence </h1>
+            <span>Collabrate with us</span>
+          </div>
+          <img src="assets/images/slider-3.png">
+        </div>
+
+      </div>
+
+      <div class="slider-dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+    </div>
+
+    <!--   Corousel slider end -->
+
+
+    <div class="stories">
+      <h1 class="story-header">Stories from Us</h1>
+
+      <table>
+        <tr>
+          <td>
+            <div class="div-story">
+              <div class="div-header">
+                <span valign="top">May 20,2015</span>
+                <h3>Corporate Announcement</h3>
+              </div>
+
+              <div class="div-image">
+                <img src="assets/images/1.jpeg" />
+              </div>
+
+              <div class="div-desc">
+                <p>We want to ensure you are comfortable with our new and awesome platform. Since we have launched our new community
+                  we have been receiving excellent feedback, but we would like to personally hear from you.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="div-story">
+              <div class="div-header">
+                <span valign="top">July 18, 2015</span>
+                <h3>New Office Location</h3>
+              </div>
+
+              <div class="div-image">
+                <img class="img-two" src="assets/images/2.jpeg" />
+
+              </div>
+              <div class="div-desc">
+                <p>We have officially moved to our new office location! It has been a long time coming but we have survived
+                  and now we are settling in.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="div-story">
+
+              <div class="div-header">
+                <span>August 26, 2015</span>
+                <h3>Connect with coworkers</h3>
+              </div>
+              <div class="div-image">
+                <img src="assets/images/3.jpeg"> </img>
+              </div>
+              <div class="div-desc">
+                <p>We are looking into using this new platform to further assist you in connecting with your coworkers. We are
+                  hoping this tool will rock!</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="footer">
+    <span>© 2016</span>
+    <img src="assets/icons/logo.png">
+  </div>
+
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+<html>
